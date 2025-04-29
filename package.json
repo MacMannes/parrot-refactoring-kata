@@ -6,7 +6,7 @@
   "license": "MIT",
   "type": "module",
   "scripts": {
-    "prepare": "husky install",
+    "prepare": "husky",
     "check-types": "tsc",
     "check-types:watch": "tsc -w",
     "test": "vitest run src/",

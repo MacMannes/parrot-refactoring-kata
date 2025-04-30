@@ -21,7 +21,7 @@ export class Parrot {
             case ParrotTypes.NORWEGIAN_BLUE:
                 return this.isNailed ? 0 : this.getBaseSpeedWithVoltage(this.voltage);
         }
-        throw new Error('Should be unreachable');
+        throw new Error('Should be unreachable!');
     }
 
     private getBaseSpeed(): number {
@@ -36,7 +36,7 @@ export class Parrot {
         return Math.min(24, voltage * this.getBaseSpeed());
     }
 
-    public getCry(): String {
+    public getCry(): string {
         switch (this.parrotType) {
             case ParrotTypes.EUROPEAN:
                 return 'Sqoork!';
@@ -45,6 +45,6 @@ export class Parrot {
             case ParrotTypes.NORWEGIAN_BLUE:
                 return this.voltage > 0 ? 'Bzzzzzz' : '...';
         }
-        throw new Error('Should be unreachable');
+        throw new Error('Should be unreachable!');
     }
 }

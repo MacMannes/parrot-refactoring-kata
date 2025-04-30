@@ -1,5 +1,5 @@
 import { describe, expect, it } from 'vitest';
-import { Parrot, ParrotTypes } from './parrot.ts';
+import { Parrot, ParrotTypes } from 'src/parrot.ts';
 
 describe('Parrot Refactoring Kata', () => {
     it('gets speed of European Parrot', () => {

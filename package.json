@@ -37,7 +37,7 @@
     "eslint-plugin-no-relative-import-paths": "^1.6.1"
   },
   "lint-staged": {
-    "*.{mjs, ts}": [
+    "*.{mjs,ts}": [
       "eslint --quiet --fix"
     ],
     "*.{json,mjs,ts,md,yml,yaml}": [
